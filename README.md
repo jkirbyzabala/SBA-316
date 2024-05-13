@@ -6,9 +6,9 @@ Purpose:
 <h1>Purpose: </h1>
 
 <p>
-As the creator of "Araw-araw," a website named after the Tagalog term for "Every Day," I designed it as a reliable digital companion, prompting me daily to stay focused on my end goal. With simplicity in mind, I crafted this platform to serve as a daily reminder of a singular aspiration. By intentionally limiting the platform to one goal, I prevent diluting my focus and can concentrate my efforts, maintaining clarity and momentum.
+As the creator of "Araw-araw," a website named after the Tagalog term for "Every Day," I designed it as a daily digital companion, prompting me to stay focused on my end goal. With simplicity in mind, I crafted this platform to serve as a regular reminder of a singular aspiration. By intentionally limiting the platform to one goal, I prevent diluting my focus and maintain my momentum by reminding myself what I'm working towards.
 
-By setting a deadline and committing to daily check-ins, I steadily move closer to my goal. The platform allows users the freedom to engage as they prefer – whether with brief updates or detailed reflections, consistency is key. Ultimately, the primary focus is simply showing up. I've designed the platform to be adaptable, allowing users to contribute as little or as much as they wish in their daily reflections. While I've chosen my graduation date from the Per Scholas WISE program as my goal, I encourage users to set their own objectives and advance accordingly.
+This website prompts a deadline and by checking in daily, I steadily move closer to that date. The platform allows users the freedom to engage as they prefer – whether with brief updates or detailed reflections, consistency is key. Ultimately, the primary focus is simply showing up. In doing so, you will see your streak increase. When you don't check in the streak restarts. I've designed the platform to be adaptable, allowing users to contribute as little or as much as they wish in their daily reflections. While I've chosen my graduation date from the Per Scholas WISE program as my goal, I encourage users to set their own date that they can progress towards!
 
 <ul>
 <li>Cache at least one element using selectElementById.</li>
