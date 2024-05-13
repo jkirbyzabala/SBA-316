@@ -3,12 +3,9 @@
 I created this small single-page web application to demonstrate my understanding of the Document Object Model (DOM)
 Purpose:
 
-Requirements:
-Cache at least one element using selectElementById
-
 <h1>Purpose: </h1>
 
-<p>This website has one single goal: To encourage the user to show up for themself. Every.single.day. It's quick and easy. You check-in, you write a response to yourself, and increase your streak
+<p>Welcome to our website, Araw-araw, which translates to "Every Day" in Tagalog. Here, our main focus is on helping you prioritize yourself every day. How you choose to engage is entirely up to you – whether it's a quick check-in or a more detailed response, the choice is yours. The main objective? Simply show up. We've made it flexible, so feel free to write as much or as little as you like. Just remember, every check-in and response keeps your streak alive and contributes to your journey.
 
 <ul>
 <li>Cache at least one element using selectElementById.</li>
