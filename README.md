@@ -35,14 +35,16 @@ Cache at least one element using selectElementById
     <ul> <li> XXX </ul>
 <li>Use at least two Browser Object Model (BOM) properties or methods.</li>
     <ul> <li> XXX </ul>
-<li>Cache at least one element using selectElementById.</li>
+<li>Include at least one form and/or input with HTML attribute validation.</li>
     <ul> <li> XXX </ul>
-<li>Cache at least one element using selectElementById.</li>
+<li>Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.)</li>
     <ul> <li> XXX </ul>
-<li>Cache at least one element using selectElementById.</li>
+<li>Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit).</li>
     <ul> <li> XXX </ul>
-<li>Cache at least one element using selectElementById.</li>
+<li>Commit frequently to the git repository.</li>
     <ul> <li> XXX </ul>
-<li>Cache at least one element using selectElementById.</li>
+<li>Include a README file that contains a description of your application.</li>
+    <ul> <li> XXX </ul>
+<li>Level of effort displayed in creativity, presentation, and user experience.</li>
     <ul> <li> XXX </ul>
 </ul>
