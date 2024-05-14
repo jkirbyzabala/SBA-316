@@ -2,6 +2,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById('date-form');
     const dateInput = document.getElementById('date');
     const dateDisplay = document.getElementById('date-display');
+    const previousDatesList = document.getElementById('previous-dates');
+    const gradeDisplay = document.getElementById('grade-display');
+
+    let previousDates = [];
 
     form.addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent the default form submission
@@ -49,5 +53,30 @@ document.addEventListener("DOMContentLoaded", function() {
                 clearInterval(countdownInterval);
             }
         }, 1000);
+
+        // Add the selected date to the previous dates array and display it
+        previousDates.push(dateValue);
+        displayPreviousDates();
+        calculateGrade();
     });
+
+    function displayPreviousDates() {
+        // Clear the previous dates list
+        previousDatesList.innerHTML = '';
+
+        // Iterate over the previous dates array and create list items
+        previousDates.forEach(function(date) {
+            const li = document.createElement('li');
+            li.textContent = date;
+            previousDatesList.appendChild(li);
+        });
+    }
+
+    function calculateGrade() {
+        const totalDates = 100; // Assuming 100% corresponds to checking in every day since the user started using the application
+        const checkInPercentage = (previousDates.length / totalDates) * 100;
+
+        // Display the grade
+        gradeDisplay.textContent = 'Grade: ' + checkInPercentage.toFixed(2) + '%';
+    }
 });
