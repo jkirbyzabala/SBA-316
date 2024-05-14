@@ -14,7 +14,7 @@ This website prompts a deadline and by checking in daily, I steadily move closer
 <li>Cache at least one element using selectElementById.</li>
     <ul> <li> XXX </ul>
 <li>Cache at least one element using querySelector or querySelectorAll.</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> Row 1 </ul>
 <li>Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling, etc.).</li>
     <ul> <li> XXX </ul>
 <li>Iterate over a collection of elements to accomplish some task.</li>

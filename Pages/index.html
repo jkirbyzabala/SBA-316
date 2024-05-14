@@ -1,23 +1,36 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../CSS/styles.css">
-    </head>
-    <body>
-        <h1>Araw-Araw</h1>
-        <h2>Welcome to our website, Araw-araw, which translates to "Every Day" in Tagalog.</h2>
-        <p>  Here, our main focus is on helping you prioritize yourself every day. How you choose to engage is entirely up to you – whether it's a quick check-in or a more detailed response, the choice is yours. The main objective? Simply show up. We've made it flexible, so feel free to write as much or as little as you like. Just remember, every check-in and response keeps your streak alive and contributes to your journey.</p>
-        
-        <p></p>
-        <script src="../JS/script.js" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <h1>Araw-Araw</h1>
+    <h2>Araw-araw, translates to "Every Day" in Tagalog.</h2>
+    <p>  I designed this website as a daily digital companion, prompting me to stay focused on my end goal. With simplicity in mind, I crafted this platform to serve as a regular reminder of a singular aspiration. By intentionally limiting the platform to one goal, I prevent diluting my focus and maintain my momentum by reminding myself what I'm working towards.</p>
+    
+    <p>This website prompts a date and by checking in daily, you see yourself move closer to that date. The platform allows users the freedom to engage as they prefer – whether with brief updates or detailed reflections, consistency is key. Ultimately, the primary focus is simply showing up. In doing so, you will see your streak increase. When you don't check in the streak restarts. I've designed the platform to be adaptable, allowing users to contribute as little or as much as they wish in their daily reflections. While I've chosen my graduation date from the Per Scholas WISE program as my goal, I encourage users to set their own date that they can progress towards!</p>
+
+    <p class="message">Welcome!</p>
+    <form id="date-form">
+        <label for="date">What date are you working towards?</label><br><br>
+        <input type="date" id="date" name="date"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="date-display"></div>
+
+    <form>
+        <label for="textbox">Write your daily reflection here:</label><br><br>
+        <input type="text" id="textbox" name="textbox"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <script src="../JS/script.js" async defer></script>
+</body>
 </html>
