@@ -48,7 +48,7 @@ I've designed the platform to be adaptable, allowing users to contribute as litt
 <li>Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit).</li>
     <ul> <li> Done </ul>
 <li>Commit frequently to the git repository.</li>
-    <ul> <li> XX Commits </ul>
+    <ul> <li> 15+ Commits </ul>
 <li>Include a README file that contains a description of your application.</li>
     <ul> <li> Done </ul>
 <li>Level of effort displayed in creativity, presentation, and user experience.</li>

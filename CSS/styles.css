@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-decoration: underline;
+    font: 14px;
+}
+p {
+    text-align: justify;
+}
+label[for="date"] { 
+    /* dont put space between label and for */
+    font-size: 16px;
+    font-weight: bold;
+}
+label[for="textbox"] {
+    font-size: 16px;
+    font-weight: bold;
+}
