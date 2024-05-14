@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
         previousDates.push(dateValue);
         displayPreviousDates();
         calculateGrade();
+        changePageColor();
     });
 
     function displayPreviousDates() {
@@ -79,7 +80,19 @@ document.addEventListener("DOMContentLoaded", function() {
         // Display the grade
         gradeDisplay.textContent = 'Grade: ' + checkInPercentage.toFixed(2) + '%';
     }
+    function changePageColor() {
+        // Generate random RGB color values
+        const randomRed = Math.floor(Math.random() * 256);
+        const randomGreen = Math.floor(Math.random() * 256);
+        const randomBlue = Math.floor(Math.random() * 256);
+
+        // Apply the random color as the background color of the page
+        document.body.style.backgroundColor = `rgb(${randomRed}, ${randomGreen}, ${randomBlue})`;
+    }
+
     const originalDiv = document.getElementById('cloneNode');
         const clonedDiv = originalDiv.cloneNode(true); 
         document.body.appendChild(clonedDiv);
+    
+    
 });

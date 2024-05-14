@@ -30,21 +30,23 @@ I've designed the platform to be adaptable, allowing users to contribute as litt
 <li>Use the Document Fragment interface or HTML templating with the cloneNode method to create templated content. </li>
     <ul> <li> cloneNode method on Row 82</ul>
 <li>Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.</li>
-    <ul> <li> Increased the streak number </ul>
+    <ul> <li> Log Previous Dates</ul>
 <li>Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> Change Color every time you submit a date </ul>
 <li>Modify at least one attribute of an element in response to user interaction.</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> I modified the dateElement and countdownElement</ul>
 <li>Register at least two different event listeners and create the associated event handler functions.</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> Form Submission Event </ul>
+    <ul> <li> DOMContentLoaded  </ul>
 <li>Use at least two Browser Object Model (BOM) properties or methods.</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> document.body.style.backgroundColor </ul>
+    <ul> <li> Math.random </ul>
 <li>Include at least one form and/or input with HTML attribute validation.</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> Form with Input for the date</ul>
 <li>Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.)</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> Form with Input for the date </ul>
 <li>Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit).</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> Done </ul>
 <li>Commit frequently to the git repository.</li>
     <ul> <li> XX Commits </ul>
 <li>Include a README file that contains a description of your application.</li>
