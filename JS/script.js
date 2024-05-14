@@ -79,4 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Display the grade
         gradeDisplay.textContent = 'Grade: ' + checkInPercentage.toFixed(2) + '%';
     }
+    const originalDiv = document.getElementById('cloneNode');
+        const clonedDiv = originalDiv.cloneNode(true); 
+        document.body.appendChild(clonedDiv);
 });

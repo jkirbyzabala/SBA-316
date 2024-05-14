@@ -22,12 +22,13 @@ I've designed the platform to be adaptable, allowing users to contribute as litt
 <li>Iterate over a collection of elements to accomplish some task.</li>
     <ul> <li> displayPreviousDates function </ul>
 <li>Create at least one element using createElement.</li>
-    <ul> <li> XXX </ul>
+    <ul> <li> Row 17 </ul>
 <li>Use appendChild and/or prepend to add new elements to the DOM.</li>
+    <ul> <li> Row 71 </ul>
     <ul> <li> Created h2 element </ul>
     <ul> <li> Created paragraph element for instructions </ul>
 <li>Use the Document Fragment interface or HTML templating with the cloneNode method to create templated content. </li>
-    <ul> <li> cloneNode method on XXX </ul>
+    <ul> <li> cloneNode method on Row 82</ul>
 <li>Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.</li>
     <ul> <li> Increased the streak number </ul>
 <li>Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.</li>
